@@ -17,8 +17,5 @@ namespace Addressbook1
         public string Email { get; set; }
         public int Phonenumber { get; set; }
 
-        
-
-
     }
 }

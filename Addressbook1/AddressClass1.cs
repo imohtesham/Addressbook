@@ -10,7 +10,7 @@ namespace Addressbook1
     {
         List<Person> listOfContacts = new List<Person>();
         Dictionary<string, List<Person>> listOfbooks = new Dictionary<string, List<Person>>();
-        Dictionary<string, List<Person>> remove = new Dictionary<string, List<Person>>();
+       //Dictionary<string, List<Person>> remove = new Dictionary<string, List<Person>>();
 
         public void AddContacts(string Addressbookname, int NumofContacts)
         {
@@ -58,7 +58,7 @@ namespace Addressbook1
                 //if (count == NumofContactremove)
                 //{
                   ///  remove.Remove(AddressbookR);
-                  ///  break;
+                  ///  break;s
                 
 
             }

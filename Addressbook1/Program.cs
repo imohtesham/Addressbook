@@ -14,7 +14,7 @@ namespace Addressbook1
         static void Main(string[] args)
         {
            
-           AddressClass1 addressClass1 = new AddressClass1();
+            AddressClass1 addressClass1 = new AddressClass1();
             Console.WriteLine("Please select a option\n1 : Add to contacts");
             int option = Convert.ToInt32(Console.ReadLine());
 
@@ -26,19 +26,10 @@ namespace Addressbook1
                     Console.WriteLine("How many contacts what to add");
                     int NumofContact = Convert.ToInt32(Console.ReadLine());
                     addressClass1.AddContacts(Addressbookname, NumofContact);
-                        break;
+                    break;
                  case 2:
                     Console.WriteLine("Displaying Addressbook");
                     break;
-                case 3:
-                    Console.WriteLine("please  enter  address book name");
-                    string AddressbookR = Console.ReadLine();
-                    Console.WriteLine("How many contacts do you want to delete");
-                    int NumofContactremove = Convert.ToInt32(Console.ReadLine());
-                    addressClass1.DeleteContact(AddressbookR, NumofContactremove);
-                    break;
-
-
                 case 4:
                     break;
 
